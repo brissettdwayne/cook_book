@@ -1,26 +1,27 @@
 {
-  "name": "todo_passport",
-  "version": "1.0.1",
+  "name": "cook_book",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brissettdwayne/cook_book.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brissettdwayne/cook_book/issues"
+  },
+  "homepage": "https://github.com/brissettdwayne/cook_book#readme",
   "dependencies": {
-    "bcryptjs": "^2.3.0",
-    "body-parser": "^1.15.0",
-    "cookie-parser": "^1.4.1",
-    "crypto": "0.0.3",
-    "dotenv": "^2.0.0",
+    "angular-utils-pagination": "^0.11.1",
+    "body-parser": "^1.15.1",
+    "ejs": "^2.4.2",
     "express": "^4.13.4",
-    "jsonwebtoken": "^5.7.0",
-    "mongoose": "^4.4.6",
-    "morgan": "^1.7.0",
-    "passport": "^0.3.2",
-    "passport-jwt": "^2.0.0",
-    "passport-local": "^1.0.0"
+    "mongoose": "^4.4.19",
+    "morgan": "^1.7.0"
   }
 }
