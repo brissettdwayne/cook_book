@@ -21,7 +21,7 @@ angular
     }
 
     $scope.getMoreData = function() {
-      $http.jsonp("http://api.petfinder.com/shelter.find?key=58471d9327fc0e1b20cf60525e2693df&count=50&format=json&location=" + $scope.locationOne + "&callback=JSON_CALLBACK").then(function(response){
+      $http.jsonp("https://api.petfinder.com/shelter.find?key=58471d9327fc0e1b20cf60525e2693df&count=50&format=json&location=" + $scope.locationOne + "&callback=JSON_CALLBACK").then(function(response){
         console.log(response.data.petfinder)
         var shelterData = response.data.petfinder.shelters.shelter;
         $scope.shelters = shelterData;
