@@ -1,0 +1,86 @@
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+
+.opacity {
+  opacity: .8;
+}
+
+.body {
+  background-image: url(/css/pic.jpg);
+}
+
+::-webkit-input-placeholder {
+   font-size: 15px;
+}
+
+
+#map {
+  width: 33%;
+  height: 50%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1000;
+  margin: 0 auto;
+  left: 2.5%;
+  margin-top: 10%;
+}
+
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+#target {
+  width: 345px;
+}
