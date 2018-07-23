@@ -14,10 +14,6 @@ html, body {
   font-family: 'Raleway', sans-serif !important;
 }
 
-.opacity {
-  opacity: .8;
-}
-
 .body {
   background-image: url(/css/pic.jpg);
 }
