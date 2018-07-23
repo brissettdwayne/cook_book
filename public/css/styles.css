@@ -1,4 +1,3 @@
-
 img {
   width: 250px;
   height: 250px;
@@ -15,7 +14,6 @@ html, body {
   font-family: 'Raleway', sans-serif !important;
 }
 
-
 .opacity {
   opacity: .8;
 }
@@ -24,20 +22,16 @@ html, body {
   background-image: url(/css/pic.jpg);
 }
 
-::-webkit-input-placeholder {
-   font-size: 15px;
+.color-blue {
+  color: #0275d8;
 }
 
+.color-green {
+  color: #28a745;
+}
 
-#map {
-  width: 33%;
-  height: 50%;
-  position: fixed;
-  bottom: 0px;
-  z-index: 1000;
-  margin: 0 auto;
-  left: 2.5%;
-  margin-top: 10%;
+::-webkit-input-placeholder {
+   font-size: 15px;
 }
 
 .controls {
